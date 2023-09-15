@@ -5,7 +5,7 @@ This script will automatically download the ADB CLI tool, and uninstall all the 
 ---
 
 # How to use it?🤔
----
+
 # Step 1: Preparing your Android phone.
 Connect your Android device to your PC using a USB cable (Make sure it supports data transfer), and enable the **"USB Debugging"**.
 Check the [Android official guide](https://developer.android.com/studio/debug/dev-options) to see how to enable it.

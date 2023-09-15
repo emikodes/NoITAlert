@@ -10,7 +10,7 @@ This script will automatically download the ADB CLI tool, and uninstall all the 
 Connect your Android device to your PC using a USB cable (Make sure it supports data transfer), and enable the **"USB Debugging"**.
 Check the [Android official guide](https://developer.android.com/studio/debug/dev-options) to see how to enable it.
 
-Trust the computers's fingerpring when asked on the phone.
+Trust the computer's fingerprint when asked on the phone.
 ---
 # Step 2: Executing.⚙️
 

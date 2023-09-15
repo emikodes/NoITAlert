@@ -14,9 +14,9 @@ Trust the computer's fingerprint when asked on the phone.
 ---
 # Step 2: Executing.⚙️
 
-* Download the **NoITAlert.ps1++ file from the **"Release"** section
+* Download the **NoITAlert.ps1** file from the **"Release"** section
 * Open a **"Terminal"** or **"Windows Powershell"** tab, navigate to the location where you downloaded the script, and execute it as shown.<br />
-  <img src="PowerShell_Screenshot.png" height="200" width="200">
+  <img src="PowerShell_Screenshot.png" height="1128" width="644">
 
 ## Done!✅ Your phone has now been successfully "purified" from "ITAlert"! 
 

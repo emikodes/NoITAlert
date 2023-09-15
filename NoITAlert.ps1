@@ -26,7 +26,7 @@ function extract {
     Write-Host "Extracting zip file"
     Write-Host "========================================" -f blue
     try{
-        Expand-Archive -LiteralPath $zip_file -DestinationPath $adb_path
+        Expand-Archive -LiteralPath $zip_file -DestinationPath $PSScriptRoot
     }catch{
         Write-Host "Failed to extract" -f red
         Write-Host $zip_file -f red
@@ -43,7 +43,7 @@ function cleanup {
         $adb_files = Get-ChildItem -Path $extracted_path | Where{$_.Name -Match "adb"}
         # move them
         $adb_files.Foreach{
-            Move-Item -Path $_.FullName -Destination $adb_path
+            Move-Item -Path $_.FullName -Destination $PSScriptRoot
         }
         # delete folder
         Remove-Item $extracted_path -Recurse
@@ -87,7 +87,7 @@ if($output.Length -lt 103){ #length of "adb devices" return value, if no device 
     EXIT
 }else{
     #start removing packages...
-    Write-Host "Removing ITAllert packages..."
+    Write-Host "Removing ITAlert packages..."
     $output = [string] (&$adb shell pm uninstall -k --user 0 com.android.cellbroadcastreceiver 2>&1)
     Write-Host $output
     $output = [string] (&$adb shell pm uninstall -k --user 0 com.android.cellbroadcast 2>&1)

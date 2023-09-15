@@ -20,6 +20,10 @@ Trust the computer's fingerprint when asked on the phone.
 
 ## Done!✅ Your phone has now been successfully "purified" from "ITAlert"! 
 
+## Disclaimer:
+Non mi assumo alcuna responsabilità dell'utilizzo di tale script.
+ITAlert è un sistema di allarme pubblico che potrebbe essere utile in numerose sitazioni di emergenza, e pertanto, ne sconsiglio la disattivazione sui vostri dispositivi.
+
 ## Contact
 
 Coded by **@emikodes** - feel free to contact me!

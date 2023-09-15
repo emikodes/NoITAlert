@@ -1,5 +1,5 @@
 # NoITAlert⛔
----
+
 Simple PS1 Script that completely removes the pre-installed **"ITAlert"** warning system from **ANY** Android devices.
 This script will automatically download the ADB CLI tool, and uninstall all the "ITAlert" packages.
 ---
